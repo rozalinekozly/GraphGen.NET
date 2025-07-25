@@ -1,0 +1,1188 @@
+digraph schema {
+  node [shape=plaintext fontname="Segoe UI"];
+  "Address" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Address</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="AddressID"><font color="#1f497d"><b>AddressID</b></font></td></tr>
+  </table>
+>];
+  "AddressType" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>AddressType</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="AddressTypeID"><font color="#1f497d"><b>AddressTypeID</b></font></td></tr>
+  </table>
+>];
+  "AWBuildVersion" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>AWBuildVersion</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="SystemInformationID"><font color="#1f497d"><b>SystemInformationID</b></font></td></tr>
+  </table>
+>];
+  "BillOfMaterials" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>BillOfMaterials</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BillOfMaterialsID"><font color="#1f497d"><b>BillOfMaterialsID</b></font></td></tr>
+  </table>
+>];
+  "BusinessEntity" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>BusinessEntity</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+  </table>
+>];
+  "BusinessEntityAddress" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>BusinessEntityAddress</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="AddressID"><font color="#1f497d"><b>AddressID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="AddressTypeID"><font color="#1f497d"><b>AddressTypeID</b></font></td></tr>
+  </table>
+>];
+  "BusinessEntityContact" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>BusinessEntityContact</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="PersonID"><font color="#1f497d"><b>PersonID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ContactTypeID"><font color="#1f497d"><b>ContactTypeID</b></font></td></tr>
+  </table>
+>];
+  "ContactType" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ContactType</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ContactTypeID"><font color="#1f497d"><b>ContactTypeID</b></font></td></tr>
+  </table>
+>];
+  "CountryRegion" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>CountryRegion</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="CountryRegionCode"><font color="#1f497d"><b>CountryRegionCode</b></font></td></tr>
+  </table>
+>];
+  "CountryRegionCurrency" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>CountryRegionCurrency</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="CountryRegionCode"><font color="#1f497d"><b>CountryRegionCode</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="CurrencyCode"><font color="#1f497d"><b>CurrencyCode</b></font></td></tr>
+  </table>
+>];
+  "CreditCard" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>CreditCard</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="CreditCardID"><font color="#1f497d"><b>CreditCardID</b></font></td></tr>
+  </table>
+>];
+  "Culture" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Culture</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="CultureID"><font color="#1f497d"><b>CultureID</b></font></td></tr>
+  </table>
+>];
+  "Currency" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Currency</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="CurrencyCode"><font color="#1f497d"><b>CurrencyCode</b></font></td></tr>
+  </table>
+>];
+  "CurrencyRate" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>CurrencyRate</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="CurrencyRateID"><font color="#1f497d"><b>CurrencyRateID</b></font></td></tr>
+  </table>
+>];
+  "Customer" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Customer</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="CustomerID"><font color="#1f497d"><b>CustomerID</b></font></td></tr>
+  </table>
+>];
+  "DatabaseLog" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>DatabaseLog</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="DatabaseLogID"><font color="#1f497d"><b>DatabaseLogID</b></font></td></tr>
+  </table>
+>];
+  "Department" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Department</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="DepartmentID"><font color="#1f497d"><b>DepartmentID</b></font></td></tr>
+  </table>
+>];
+  "Document" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Document</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="DocumentNode"><font color="#1f497d"><b>DocumentNode</b></font></td></tr>
+  </table>
+>];
+  "EmailAddress" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>EmailAddress</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="EmailAddressID"><font color="#1f497d"><b>EmailAddressID</b></font></td></tr>
+  </table>
+>];
+  "Employee" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Employee</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+  </table>
+>];
+  "EmployeeDepartmentHistory" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>EmployeeDepartmentHistory</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="StartDate"><font color="#1f497d"><b>StartDate</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="DepartmentID"><font color="#1f497d"><b>DepartmentID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ShiftID"><font color="#1f497d"><b>ShiftID</b></font></td></tr>
+  </table>
+>];
+  "EmployeePayHistory" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>EmployeePayHistory</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="RateChangeDate"><font color="#1f497d"><b>RateChangeDate</b></font></td></tr>
+  </table>
+>];
+  "ErrorLog" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ErrorLog</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ErrorLogID"><font color="#1f497d"><b>ErrorLogID</b></font></td></tr>
+  </table>
+>];
+  "Illustration" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Illustration</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="IllustrationID"><font color="#1f497d"><b>IllustrationID</b></font></td></tr>
+  </table>
+>];
+  "JobCandidate" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>JobCandidate</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="JobCandidateID"><font color="#1f497d"><b>JobCandidateID</b></font></td></tr>
+  </table>
+>];
+  "Location" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Location</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="LocationID"><font color="#1f497d"><b>LocationID</b></font></td></tr>
+  </table>
+>];
+  "Password" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Password</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+  </table>
+>];
+  "Person" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Person</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+  </table>
+>];
+  "PersonCreditCard" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>PersonCreditCard</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="CreditCardID"><font color="#1f497d"><b>CreditCardID</b></font></td></tr>
+  </table>
+>];
+  "PersonPhone" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>PersonPhone</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="PhoneNumber"><font color="#1f497d"><b>PhoneNumber</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="PhoneNumberTypeID"><font color="#1f497d"><b>PhoneNumberTypeID</b></font></td></tr>
+  </table>
+>];
+  "PhoneNumberType" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>PhoneNumberType</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="PhoneNumberTypeID"><font color="#1f497d"><b>PhoneNumberTypeID</b></font></td></tr>
+  </table>
+>];
+  "Product" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Product</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductID"><font color="#1f497d"><b>ProductID</b></font></td></tr>
+  </table>
+>];
+  "ProductCategory" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductCategory</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductCategoryID"><font color="#1f497d"><b>ProductCategoryID</b></font></td></tr>
+  </table>
+>];
+  "ProductCostHistory" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductCostHistory</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductID"><font color="#1f497d"><b>ProductID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="StartDate"><font color="#1f497d"><b>StartDate</b></font></td></tr>
+  </table>
+>];
+  "ProductDescription" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductDescription</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductDescriptionID"><font color="#1f497d"><b>ProductDescriptionID</b></font></td></tr>
+  </table>
+>];
+  "ProductDocument" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductDocument</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductID"><font color="#1f497d"><b>ProductID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="DocumentNode"><font color="#1f497d"><b>DocumentNode</b></font></td></tr>
+  </table>
+>];
+  "ProductInventory" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductInventory</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductID"><font color="#1f497d"><b>ProductID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="LocationID"><font color="#1f497d"><b>LocationID</b></font></td></tr>
+  </table>
+>];
+  "ProductListPriceHistory" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductListPriceHistory</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductID"><font color="#1f497d"><b>ProductID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="StartDate"><font color="#1f497d"><b>StartDate</b></font></td></tr>
+  </table>
+>];
+  "ProductModel" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductModel</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductModelID"><font color="#1f497d"><b>ProductModelID</b></font></td></tr>
+  </table>
+>];
+  "ProductModelIllustration" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductModelIllustration</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductModelID"><font color="#1f497d"><b>ProductModelID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="IllustrationID"><font color="#1f497d"><b>IllustrationID</b></font></td></tr>
+  </table>
+>];
+  "ProductModelProductDescriptionCulture" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductModelProductDescriptionCulture</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductModelID"><font color="#1f497d"><b>ProductModelID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductDescriptionID"><font color="#1f497d"><b>ProductDescriptionID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="CultureID"><font color="#1f497d"><b>CultureID</b></font></td></tr>
+  </table>
+>];
+  "ProductPhoto" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductPhoto</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductPhotoID"><font color="#1f497d"><b>ProductPhotoID</b></font></td></tr>
+  </table>
+>];
+  "ProductProductPhoto" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductProductPhoto</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductID"><font color="#1f497d"><b>ProductID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductPhotoID"><font color="#1f497d"><b>ProductPhotoID</b></font></td></tr>
+  </table>
+>];
+  "ProductReview" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductReview</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductReviewID"><font color="#1f497d"><b>ProductReviewID</b></font></td></tr>
+  </table>
+>];
+  "ProductSubcategory" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductSubcategory</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductSubcategoryID"><font color="#1f497d"><b>ProductSubcategoryID</b></font></td></tr>
+  </table>
+>];
+  "ProductVendor" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ProductVendor</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductID"><font color="#1f497d"><b>ProductID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+  </table>
+>];
+  "PurchaseOrderDetail" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>PurchaseOrderDetail</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="PurchaseOrderID"><font color="#1f497d"><b>PurchaseOrderID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="PurchaseOrderDetailID"><font color="#1f497d"><b>PurchaseOrderDetailID</b></font></td></tr>
+  </table>
+>];
+  "PurchaseOrderHeader" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>PurchaseOrderHeader</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="PurchaseOrderID"><font color="#1f497d"><b>PurchaseOrderID</b></font></td></tr>
+  </table>
+>];
+  "SalesOrderDetail" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>SalesOrderDetail</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="SalesOrderID"><font color="#1f497d"><b>SalesOrderID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="SalesOrderDetailID"><font color="#1f497d"><b>SalesOrderDetailID</b></font></td></tr>
+  </table>
+>];
+  "SalesOrderHeader" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>SalesOrderHeader</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="SalesOrderID"><font color="#1f497d"><b>SalesOrderID</b></font></td></tr>
+  </table>
+>];
+  "SalesOrderHeaderSalesReason" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>SalesOrderHeaderSalesReason</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="SalesOrderID"><font color="#1f497d"><b>SalesOrderID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="SalesReasonID"><font color="#1f497d"><b>SalesReasonID</b></font></td></tr>
+  </table>
+>];
+  "SalesPerson" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>SalesPerson</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+  </table>
+>];
+  "SalesPersonQuotaHistory" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>SalesPersonQuotaHistory</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="QuotaDate"><font color="#1f497d"><b>QuotaDate</b></font></td></tr>
+  </table>
+>];
+  "SalesReason" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>SalesReason</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="SalesReasonID"><font color="#1f497d"><b>SalesReasonID</b></font></td></tr>
+  </table>
+>];
+  "SalesTaxRate" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>SalesTaxRate</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="SalesTaxRateID"><font color="#1f497d"><b>SalesTaxRateID</b></font></td></tr>
+  </table>
+>];
+  "SalesTerritory" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>SalesTerritory</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="TerritoryID"><font color="#1f497d"><b>TerritoryID</b></font></td></tr>
+  </table>
+>];
+  "SalesTerritoryHistory" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>SalesTerritoryHistory</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="StartDate"><font color="#1f497d"><b>StartDate</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="TerritoryID"><font color="#1f497d"><b>TerritoryID</b></font></td></tr>
+  </table>
+>];
+  "ScrapReason" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ScrapReason</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ScrapReasonID"><font color="#1f497d"><b>ScrapReasonID</b></font></td></tr>
+  </table>
+>];
+  "Shift" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Shift</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ShiftID"><font color="#1f497d"><b>ShiftID</b></font></td></tr>
+  </table>
+>];
+  "ShipMethod" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ShipMethod</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ShipMethodID"><font color="#1f497d"><b>ShipMethodID</b></font></td></tr>
+  </table>
+>];
+  "ShoppingCartItem" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>ShoppingCartItem</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ShoppingCartItemID"><font color="#1f497d"><b>ShoppingCartItemID</b></font></td></tr>
+  </table>
+>];
+  "SpecialOffer" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>SpecialOffer</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="SpecialOfferID"><font color="#1f497d"><b>SpecialOfferID</b></font></td></tr>
+  </table>
+>];
+  "SpecialOfferProduct" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>SpecialOfferProduct</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="SpecialOfferID"><font color="#1f497d"><b>SpecialOfferID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductID"><font color="#1f497d"><b>ProductID</b></font></td></tr>
+  </table>
+>];
+  "StateProvince" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>StateProvince</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="StateProvinceID"><font color="#1f497d"><b>StateProvinceID</b></font></td></tr>
+  </table>
+>];
+  "Store" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Store</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+  </table>
+>];
+  "TransactionHistory" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>TransactionHistory</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="TransactionID"><font color="#1f497d"><b>TransactionID</b></font></td></tr>
+  </table>
+>];
+  "TransactionHistoryArchive" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>TransactionHistoryArchive</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="TransactionID"><font color="#1f497d"><b>TransactionID</b></font></td></tr>
+  </table>
+>];
+  "UnitMeasure" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>UnitMeasure</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="UnitMeasureCode"><font color="#1f497d"><b>UnitMeasureCode</b></font></td></tr>
+  </table>
+>];
+  "Vendor" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>Vendor</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="BusinessEntityID"><font color="#1f497d"><b>BusinessEntityID</b></font></td></tr>
+  </table>
+>];
+  "WorkOrder" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>WorkOrder</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="WorkOrderID"><font color="#1f497d"><b>WorkOrderID</b></font></td></tr>
+  </table>
+>];
+  "WorkOrderRouting" [label=<
+  <table border="0" cellborder="1" cellspacing="0" cellpadding="10" bgcolor="#ffffff">
+    <tr><td bgcolor="#1f497d" sides="tb" align="center" port="header"><font color="white"><b>WorkOrderRouting</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="WorkOrderID"><font color="#1f497d"><b>WorkOrderID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="ProductID"><font color="#1f497d"><b>ProductID</b></font></td></tr>
+    <tr><td bgcolor="#ffffef" align="center" port="OperationSequence"><font color="#1f497d"><b>OperationSequence</b></font></td></tr>
+  </table>
+>];
+  SalesTaxRate -> StateProvince [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesTaxRate%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EStateProvince%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  PersonCreditCard -> Person [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EPersonCreditCard%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EPerson%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  PersonCreditCard -> CreditCard [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EPersonCreditCard%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ECreditCard%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  PersonPhone -> Person [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EPersonPhone%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EPerson%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  PersonPhone -> PhoneNumberType [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EPersonPhone%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EPhoneNumberType%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesTerritory -> CountryRegion [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesTerritory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ECountryRegion%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Product -> UnitMeasure [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProduct%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EUnitMeasure%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Product -> UnitMeasure [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProduct%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EUnitMeasure%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Product -> ProductSubcategory [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProduct%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProductSubcategory%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Product -> ProductModel [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProduct%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProductModel%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesTerritoryHistory -> SalesPerson [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesTerritoryHistory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESalesPerson%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesTerritoryHistory -> SalesTerritory [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesTerritoryHistory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESalesTerritory%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductCostHistory -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductCostHistory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ShoppingCartItem -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EShoppingCartItem%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductDocument -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductDocument%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductDocument -> Document [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductDocument%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EDocument%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductInventory -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductInventory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductInventory -> Location [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductInventory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ELocation%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductListPriceHistory -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductListPriceHistory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Address -> StateProvince [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EAddress%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EStateProvince%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SpecialOfferProduct -> SpecialOffer [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESpecialOfferProduct%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESpecialOffer%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SpecialOfferProduct -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESpecialOfferProduct%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  StateProvince -> CountryRegion [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EStateProvince%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ECountryRegion%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  StateProvince -> SalesTerritory [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EStateProvince%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESalesTerritory%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductModelIllustration -> ProductModel [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductModelIllustration%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProductModel%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductModelIllustration -> Illustration [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductModelIllustration%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EIllustration%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductModelProductDescriptionCulture -> ProductModel [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductModelProductDescriptionCulture%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProductModel%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductModelProductDescriptionCulture -> ProductDescription [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductModelProductDescriptionCulture%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProductDescription%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductModelProductDescriptionCulture -> Culture [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductModelProductDescriptionCulture%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ECulture%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  BillOfMaterials -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EBillOfMaterials%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  BillOfMaterials -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EBillOfMaterials%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  BillOfMaterials -> UnitMeasure [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EBillOfMaterials%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EUnitMeasure%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Store -> BusinessEntity [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EStore%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EBusinessEntity%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Store -> SalesPerson [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EStore%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESalesPerson%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductProductPhoto -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductProductPhoto%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductProductPhoto -> ProductPhoto [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductProductPhoto%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProductPhoto%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  TransactionHistory -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ETransactionHistory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductReview -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductReview%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductSubcategory -> ProductCategory [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductSubcategory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProductCategory%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  BusinessEntityAddress -> BusinessEntity [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EBusinessEntityAddress%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EBusinessEntity%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  BusinessEntityAddress -> Address [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EBusinessEntityAddress%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EAddress%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  BusinessEntityAddress -> AddressType [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EBusinessEntityAddress%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EAddressType%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductVendor -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductVendor%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductVendor -> Vendor [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductVendor%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EVendor%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  ProductVendor -> UnitMeasure [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EProductVendor%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EUnitMeasure%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  BusinessEntityContact -> BusinessEntity [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EBusinessEntityContact%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EBusinessEntity%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  BusinessEntityContact -> Person [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EBusinessEntityContact%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EPerson%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  BusinessEntityContact -> ContactType [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EBusinessEntityContact%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EContactType%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Vendor -> BusinessEntity [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EVendor%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EBusinessEntity%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  CountryRegionCurrency -> CountryRegion [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ECountryRegionCurrency%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ECountryRegion%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  CountryRegionCurrency -> Currency [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ECountryRegionCurrency%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ECurrency%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  WorkOrder -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EWorkOrder%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  WorkOrder -> ScrapReason [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EWorkOrder%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EScrapReason%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  PurchaseOrderDetail -> PurchaseOrderHeader [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EPurchaseOrderDetail%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EPurchaseOrderHeader%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  PurchaseOrderDetail -> Product [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EPurchaseOrderDetail%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  WorkOrderRouting -> WorkOrder [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EWorkOrderRouting%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EWorkOrder%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  WorkOrderRouting -> Location [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EWorkOrderRouting%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ELocation%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  PurchaseOrderHeader -> Employee [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EPurchaseOrderHeader%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EEmployee%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  PurchaseOrderHeader -> Vendor [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EPurchaseOrderHeader%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EVendor%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  PurchaseOrderHeader -> ShipMethod [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EPurchaseOrderHeader%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EShipMethod%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  CurrencyRate -> Currency [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ECurrencyRate%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ECurrency%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  CurrencyRate -> Currency [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ECurrencyRate%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ECurrency%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Customer -> Person [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ECustomer%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EPerson%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Customer -> Store [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ECustomer%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EStore%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Customer -> SalesTerritory [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ECustomer%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESalesTerritory%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Document -> Employee [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EDocument%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EEmployee%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesOrderDetail -> SalesOrderHeader [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesOrderDetail%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESalesOrderHeader%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesOrderDetail -> SpecialOfferProduct [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesOrderDetail%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESpecialOfferProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesOrderDetail -> SpecialOfferProduct [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesOrderDetail%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESpecialOfferProduct%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  EmailAddress -> Person [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EEmailAddress%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EPerson%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Employee -> Person [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EEmployee%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EPerson%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesOrderHeader -> Customer [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesOrderHeader%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ECustomer%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesOrderHeader -> SalesPerson [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesOrderHeader%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESalesPerson%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesOrderHeader -> SalesTerritory [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesOrderHeader%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESalesTerritory%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesOrderHeader -> Address [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesOrderHeader%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EAddress%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesOrderHeader -> Address [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesOrderHeader%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EAddress%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesOrderHeader -> ShipMethod [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesOrderHeader%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EShipMethod%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesOrderHeader -> CreditCard [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesOrderHeader%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ECreditCard%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesOrderHeader -> CurrencyRate [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesOrderHeader%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ECurrencyRate%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  EmployeeDepartmentHistory -> Employee [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EEmployeeDepartmentHistory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EEmployee%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  EmployeeDepartmentHistory -> Department [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EEmployeeDepartmentHistory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EDepartment%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  EmployeeDepartmentHistory -> Shift [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EEmployeeDepartmentHistory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EShift%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  EmployeePayHistory -> Employee [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EEmployeePayHistory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EEmployee%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesOrderHeaderSalesReason -> SalesOrderHeader [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesOrderHeaderSalesReason%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESalesOrderHeader%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesOrderHeaderSalesReason -> SalesReason [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesOrderHeaderSalesReason%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESalesReason%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesPerson -> Employee [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesPerson%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EEmployee%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesPerson -> SalesTerritory [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesPerson%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESalesTerritory%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  JobCandidate -> Employee [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EJobCandidate%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EEmployee%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Password -> Person [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EPassword%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EPerson%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  SalesPersonQuotaHistory -> SalesPerson [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3ESalesPersonQuotaHistory%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3ESalesPerson%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+  Person -> BusinessEntity [
+    color="#b9cde5",
+    penwidth=2.5,
+    arrowhead=dot,
+    arrowsize=1.5,
+    style=solid,
+    URL="data:text/html,%3Cb%3Eeach%20%3Cb%3EPerson%3C%2Fb%3E%20may%20have%20multiple%20%3Cb%3EBusinessEntity%3C%2Fb%3E%3C%2Fb%3E"
+  ];
+}

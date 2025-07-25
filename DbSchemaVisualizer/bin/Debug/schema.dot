@@ -1,0 +1,10 @@
+digraph schema {
+  rankdir=LR; node [shape=plaintext fontname="Segoe UI"];
+  Store [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4"><tr><td bgcolor="#003366"><font color="white"><b>Store</b></font></td></tr>
+<tr><td bgcolor="#eeeeee">StoreID</td></tr>
+</table>>, tooltip="StoreID"];
+  Discount [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4"><tr><td bgcolor="#003366"><font color="white"><b>Discount</b></font></td></tr>
+<tr><td bgcolor="#eeeeee">DiscountID</td></tr>
+</table>>, tooltip="DiscountID"];
+  Store -> Discount [label="", color="#aaaaaa", penwidth=1.5];
+}

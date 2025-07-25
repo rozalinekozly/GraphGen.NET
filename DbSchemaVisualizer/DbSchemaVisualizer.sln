@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbSchemaVisualizer", "DbSchemaVisualizer.csproj", "{ABA6D8E5-5C31-4AF0-953A-99EEF8ED59F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABA6D8E5-5C31-4AF0-953A-99EEF8ED59F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA6D8E5-5C31-4AF0-953A-99EEF8ED59F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA6D8E5-5C31-4AF0-953A-99EEF8ED59F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA6D8E5-5C31-4AF0-953A-99EEF8ED59F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C805691E-A619-4082-8D70-A5992E026358}
+	EndGlobalSection
+EndGlobal

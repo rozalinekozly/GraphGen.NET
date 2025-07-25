@@ -1,0 +1,551 @@
+digraph G {
+  node [shape=plaintext];
+  "Address" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Address</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">AddressID</td></tr>
+    </table>
+  >];
+  "AddressType" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>AddressType</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">AddressTypeID</td></tr>
+    </table>
+  >];
+  "AWBuildVersion" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>AWBuildVersion</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">SystemInformationID</td></tr>
+    </table>
+  >];
+  "BillOfMaterials" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>BillOfMaterials</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BillOfMaterialsID</td></tr>
+    </table>
+  >];
+  "BusinessEntity" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>BusinessEntity</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+    </table>
+  >];
+  "BusinessEntityAddress" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>BusinessEntityAddress</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+      <tr><td bgcolor="#F9F9F9">AddressID</td></tr>
+      <tr><td bgcolor="#F9F9F9">AddressTypeID</td></tr>
+    </table>
+  >];
+  "BusinessEntityContact" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>BusinessEntityContact</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+      <tr><td bgcolor="#F9F9F9">PersonID</td></tr>
+      <tr><td bgcolor="#F9F9F9">ContactTypeID</td></tr>
+    </table>
+  >];
+  "ContactType" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ContactType</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ContactTypeID</td></tr>
+    </table>
+  >];
+  "CountryRegion" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>CountryRegion</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">CountryRegionCode</td></tr>
+    </table>
+  >];
+  "CountryRegionCurrency" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>CountryRegionCurrency</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">CountryRegionCode</td></tr>
+      <tr><td bgcolor="#F9F9F9">CurrencyCode</td></tr>
+    </table>
+  >];
+  "CreditCard" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>CreditCard</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">CreditCardID</td></tr>
+    </table>
+  >];
+  "Culture" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Culture</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">CultureID</td></tr>
+    </table>
+  >];
+  "Currency" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Currency</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">CurrencyCode</td></tr>
+    </table>
+  >];
+  "CurrencyRate" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>CurrencyRate</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">CurrencyRateID</td></tr>
+    </table>
+  >];
+  "Customer" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Customer</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">CustomerID</td></tr>
+    </table>
+  >];
+  "DatabaseLog" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>DatabaseLog</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">DatabaseLogID</td></tr>
+    </table>
+  >];
+  "Department" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Department</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">DepartmentID</td></tr>
+    </table>
+  >];
+  "Document" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Document</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">DocumentNode</td></tr>
+    </table>
+  >];
+  "EmailAddress" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>EmailAddress</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+      <tr><td bgcolor="#F9F9F9">EmailAddressID</td></tr>
+    </table>
+  >];
+  "Employee" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Employee</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+    </table>
+  >];
+  "EmployeeDepartmentHistory" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>EmployeeDepartmentHistory</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+      <tr><td bgcolor="#F9F9F9">StartDate</td></tr>
+      <tr><td bgcolor="#F9F9F9">DepartmentID</td></tr>
+      <tr><td bgcolor="#F9F9F9">ShiftID</td></tr>
+    </table>
+  >];
+  "EmployeePayHistory" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>EmployeePayHistory</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+      <tr><td bgcolor="#F9F9F9">RateChangeDate</td></tr>
+    </table>
+  >];
+  "ErrorLog" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ErrorLog</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ErrorLogID</td></tr>
+    </table>
+  >];
+  "Illustration" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Illustration</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">IllustrationID</td></tr>
+    </table>
+  >];
+  "JobCandidate" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>JobCandidate</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">JobCandidateID</td></tr>
+    </table>
+  >];
+  "Location" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Location</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">LocationID</td></tr>
+    </table>
+  >];
+  "Password" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Password</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+    </table>
+  >];
+  "Person" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Person</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+    </table>
+  >];
+  "PersonCreditCard" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>PersonCreditCard</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+      <tr><td bgcolor="#F9F9F9">CreditCardID</td></tr>
+    </table>
+  >];
+  "PersonPhone" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>PersonPhone</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+      <tr><td bgcolor="#F9F9F9">PhoneNumber</td></tr>
+      <tr><td bgcolor="#F9F9F9">PhoneNumberTypeID</td></tr>
+    </table>
+  >];
+  "PhoneNumberType" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>PhoneNumberType</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">PhoneNumberTypeID</td></tr>
+    </table>
+  >];
+  "Product" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Product</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductID</td></tr>
+    </table>
+  >];
+  "ProductCategory" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductCategory</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductCategoryID</td></tr>
+    </table>
+  >];
+  "ProductCostHistory" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductCostHistory</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductID</td></tr>
+      <tr><td bgcolor="#F9F9F9">StartDate</td></tr>
+    </table>
+  >];
+  "ProductDescription" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductDescription</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductDescriptionID</td></tr>
+    </table>
+  >];
+  "ProductDocument" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductDocument</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductID</td></tr>
+      <tr><td bgcolor="#F9F9F9">DocumentNode</td></tr>
+    </table>
+  >];
+  "ProductInventory" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductInventory</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductID</td></tr>
+      <tr><td bgcolor="#F9F9F9">LocationID</td></tr>
+    </table>
+  >];
+  "ProductListPriceHistory" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductListPriceHistory</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductID</td></tr>
+      <tr><td bgcolor="#F9F9F9">StartDate</td></tr>
+    </table>
+  >];
+  "ProductModel" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductModel</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductModelID</td></tr>
+    </table>
+  >];
+  "ProductModelIllustration" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductModelIllustration</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductModelID</td></tr>
+      <tr><td bgcolor="#F9F9F9">IllustrationID</td></tr>
+    </table>
+  >];
+  "ProductModelProductDescriptionCulture" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductModelProductDescriptionCulture</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductModelID</td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductDescriptionID</td></tr>
+      <tr><td bgcolor="#F9F9F9">CultureID</td></tr>
+    </table>
+  >];
+  "ProductPhoto" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductPhoto</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductPhotoID</td></tr>
+    </table>
+  >];
+  "ProductProductPhoto" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductProductPhoto</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductID</td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductPhotoID</td></tr>
+    </table>
+  >];
+  "ProductReview" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductReview</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductReviewID</td></tr>
+    </table>
+  >];
+  "ProductSubcategory" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductSubcategory</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductSubcategoryID</td></tr>
+    </table>
+  >];
+  "ProductVendor" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ProductVendor</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductID</td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+    </table>
+  >];
+  "PurchaseOrderDetail" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>PurchaseOrderDetail</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">PurchaseOrderID</td></tr>
+      <tr><td bgcolor="#F9F9F9">PurchaseOrderDetailID</td></tr>
+    </table>
+  >];
+  "PurchaseOrderHeader" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>PurchaseOrderHeader</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">PurchaseOrderID</td></tr>
+    </table>
+  >];
+  "SalesOrderDetail" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>SalesOrderDetail</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">SalesOrderID</td></tr>
+      <tr><td bgcolor="#F9F9F9">SalesOrderDetailID</td></tr>
+    </table>
+  >];
+  "SalesOrderHeader" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>SalesOrderHeader</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">SalesOrderID</td></tr>
+    </table>
+  >];
+  "SalesOrderHeaderSalesReason" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>SalesOrderHeaderSalesReason</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">SalesOrderID</td></tr>
+      <tr><td bgcolor="#F9F9F9">SalesReasonID</td></tr>
+    </table>
+  >];
+  "SalesPerson" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>SalesPerson</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+    </table>
+  >];
+  "SalesPersonQuotaHistory" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>SalesPersonQuotaHistory</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+      <tr><td bgcolor="#F9F9F9">QuotaDate</td></tr>
+    </table>
+  >];
+  "SalesReason" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>SalesReason</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">SalesReasonID</td></tr>
+    </table>
+  >];
+  "SalesTaxRate" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>SalesTaxRate</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">SalesTaxRateID</td></tr>
+    </table>
+  >];
+  "SalesTerritory" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>SalesTerritory</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">TerritoryID</td></tr>
+    </table>
+  >];
+  "SalesTerritoryHistory" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>SalesTerritoryHistory</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+      <tr><td bgcolor="#F9F9F9">StartDate</td></tr>
+      <tr><td bgcolor="#F9F9F9">TerritoryID</td></tr>
+    </table>
+  >];
+  "ScrapReason" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ScrapReason</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ScrapReasonID</td></tr>
+    </table>
+  >];
+  "Shift" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Shift</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ShiftID</td></tr>
+    </table>
+  >];
+  "ShipMethod" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ShipMethod</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ShipMethodID</td></tr>
+    </table>
+  >];
+  "ShoppingCartItem" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>ShoppingCartItem</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">ShoppingCartItemID</td></tr>
+    </table>
+  >];
+  "SpecialOffer" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>SpecialOffer</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">SpecialOfferID</td></tr>
+    </table>
+  >];
+  "SpecialOfferProduct" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>SpecialOfferProduct</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">SpecialOfferID</td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductID</td></tr>
+    </table>
+  >];
+  "StateProvince" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>StateProvince</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">StateProvinceID</td></tr>
+    </table>
+  >];
+  "Store" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Store</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+    </table>
+  >];
+  "TransactionHistory" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>TransactionHistory</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">TransactionID</td></tr>
+    </table>
+  >];
+  "TransactionHistoryArchive" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>TransactionHistoryArchive</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">TransactionID</td></tr>
+    </table>
+  >];
+  "UnitMeasure" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>UnitMeasure</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">UnitMeasureCode</td></tr>
+    </table>
+  >];
+  "Vendor" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>Vendor</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">BusinessEntityID</td></tr>
+    </table>
+  >];
+  "WorkOrder" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>WorkOrder</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">WorkOrderID</td></tr>
+    </table>
+  >];
+  "WorkOrderRouting" [label=<
+    <table border="0" cellborder="1" cellspacing="0" bgcolor="#D3D3D3" style="rounded">
+      <tr><td colspan="1" bgcolor="#3C648C"><font color="white"><b>WorkOrderRouting</b></font></td></tr>
+      <tr><td bgcolor="#F9F9F9">WorkOrderID</td></tr>
+      <tr><td bgcolor="#F9F9F9">ProductID</td></tr>
+      <tr><td bgcolor="#F9F9F9">OperationSequence</td></tr>
+    </table>
+  >];
+  "SalesTaxRate" -> "StateProvince";
+  "PersonCreditCard" -> "Person";
+  "PersonCreditCard" -> "CreditCard";
+  "PersonPhone" -> "Person";
+  "PersonPhone" -> "PhoneNumberType";
+  "SalesTerritory" -> "CountryRegion";
+  "Product" -> "UnitMeasure";
+  "Product" -> "UnitMeasure";
+  "Product" -> "ProductSubcategory";
+  "Product" -> "ProductModel";
+  "SalesTerritoryHistory" -> "SalesPerson";
+  "SalesTerritoryHistory" -> "SalesTerritory";
+  "ProductCostHistory" -> "Product";
+  "ShoppingCartItem" -> "Product";
+  "ProductDocument" -> "Product";
+  "ProductDocument" -> "Document";
+  "ProductInventory" -> "Product";
+  "ProductInventory" -> "Location";
+  "ProductListPriceHistory" -> "Product";
+  "Address" -> "StateProvince";
+  "SpecialOfferProduct" -> "SpecialOffer";
+  "SpecialOfferProduct" -> "Product";
+  "StateProvince" -> "CountryRegion";
+  "StateProvince" -> "SalesTerritory";
+  "ProductModelIllustration" -> "ProductModel";
+  "ProductModelIllustration" -> "Illustration";
+  "ProductModelProductDescriptionCulture" -> "ProductModel";
+  "ProductModelProductDescriptionCulture" -> "ProductDescription";
+  "ProductModelProductDescriptionCulture" -> "Culture";
+  "BillOfMaterials" -> "Product";
+  "BillOfMaterials" -> "Product";
+  "BillOfMaterials" -> "UnitMeasure";
+  "Store" -> "BusinessEntity";
+  "Store" -> "SalesPerson";
+  "ProductProductPhoto" -> "Product";
+  "ProductProductPhoto" -> "ProductPhoto";
+  "TransactionHistory" -> "Product";
+  "ProductReview" -> "Product";
+  "ProductSubcategory" -> "ProductCategory";
+  "BusinessEntityAddress" -> "BusinessEntity";
+  "BusinessEntityAddress" -> "Address";
+  "BusinessEntityAddress" -> "AddressType";
+  "ProductVendor" -> "Product";
+  "ProductVendor" -> "Vendor";
+  "ProductVendor" -> "UnitMeasure";
+  "BusinessEntityContact" -> "BusinessEntity";
+  "BusinessEntityContact" -> "Person";
+  "BusinessEntityContact" -> "ContactType";
+  "Vendor" -> "BusinessEntity";
+  "CountryRegionCurrency" -> "CountryRegion";
+  "CountryRegionCurrency" -> "Currency";
+  "WorkOrder" -> "Product";
+  "WorkOrder" -> "ScrapReason";
+  "PurchaseOrderDetail" -> "PurchaseOrderHeader";
+  "PurchaseOrderDetail" -> "Product";
+  "WorkOrderRouting" -> "WorkOrder";
+  "WorkOrderRouting" -> "Location";
+  "PurchaseOrderHeader" -> "Employee";
+  "PurchaseOrderHeader" -> "Vendor";
+  "PurchaseOrderHeader" -> "ShipMethod";
+  "CurrencyRate" -> "Currency";
+  "CurrencyRate" -> "Currency";
+  "Customer" -> "Person";
+  "Customer" -> "Store";
+  "Customer" -> "SalesTerritory";
+  "Document" -> "Employee";
+  "SalesOrderDetail" -> "SalesOrderHeader";
+  "SalesOrderDetail" -> "SpecialOfferProduct";
+  "SalesOrderDetail" -> "SpecialOfferProduct";
+  "EmailAddress" -> "Person";
+  "Employee" -> "Person";
+  "SalesOrderHeader" -> "Customer";
+  "SalesOrderHeader" -> "SalesPerson";
+  "SalesOrderHeader" -> "SalesTerritory";
+  "SalesOrderHeader" -> "Address";
+  "SalesOrderHeader" -> "Address";
+  "SalesOrderHeader" -> "ShipMethod";
+  "SalesOrderHeader" -> "CreditCard";
+  "SalesOrderHeader" -> "CurrencyRate";
+  "EmployeeDepartmentHistory" -> "Employee";
+  "EmployeeDepartmentHistory" -> "Department";
+  "EmployeeDepartmentHistory" -> "Shift";
+  "EmployeePayHistory" -> "Employee";
+  "SalesOrderHeaderSalesReason" -> "SalesOrderHeader";
+  "SalesOrderHeaderSalesReason" -> "SalesReason";
+  "SalesPerson" -> "Employee";
+  "SalesPerson" -> "SalesTerritory";
+  "JobCandidate" -> "Employee";
+  "Password" -> "Person";
+  "SalesPersonQuotaHistory" -> "SalesPerson";
+  "Person" -> "BusinessEntity";
+}

@@ -1,0 +1,4 @@
+/* Inject this style into your SVG <style> section */
+.edge:hover text {
+  fill: #333333 !important;
+}

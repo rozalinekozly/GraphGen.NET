@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\123\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\cv\\coapp\\DbSchemaVisualizer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA6D8E5-5C31-4AF0-953A-99EEF8ED59F2}|DbSchemaVisualizer\\DbSchemaVisualizer.csproj|c:\\users\\123\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\cv\\coapp\\dbschemavisualizer\\dbschemavisualizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA6D8E5-5C31-4AF0-953A-99EEF8ED59F2}|DbSchemaVisualizer\\DbSchemaVisualizer.csproj|solutionrelative:dbschemavisualizer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\123\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\cv\\coapp\\DbSchemaVisualizer\\DbSchemaVisualizer\\Program.cs",
+              "RelativeDocumentMoniker": "DbSchemaVisualizer\\Program.cs",
+              "ToolTip": "C:\\Users\\123\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\cv\\coapp\\DbSchemaVisualizer\\DbSchemaVisualizer\\Program.cs",
+              "RelativeToolTip": "DbSchemaVisualizer\\Program.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:09:39.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
